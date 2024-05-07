@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    width: 400px;
+    background-color: aliceblue;
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+    padding: 28px;
+}
+
+form{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form input{
+    width: 84%;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: black;
+    background-color: rgb(235, 230, 230);
+    padding: 12px 16px;
+    border-radius: 14px;
+    border: none;
+    outline: none;
+}
+
+form button{
+    font-size: 20px;
+    border-radius: 50px;
+    background-color: rgb(235, 230, 230);
+    width: 46px;
+    height: 46px;
+    border: none;
+}
+
+form button:hover{
+    color: wheat;
+    background-color: black;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-block: 20px;
+}
+
+.information img{
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+.temperature{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.temp-info{
+    font-size: 20px;
+    font-weight: 250;
+}
+
+.extra-info{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.humidity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.wind-speed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.humid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.wind{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.humid-icon{
+    font-size: 30px;
+}
+
+.wind-icon{
+    font-size: 30px;
+}
+
+.location-not-found{
+    margin-block: 20px;
+    margin-top: 30px;
+}
+
+.location-not-found img{
+    width: 80%;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    
+}
+
+.location-not-found h1{
+    margin-bottom: 20px;
+    font-size: 35px;
+}
