@@ -25,7 +25,6 @@ function Weather() {
   async function search(e) {
 
     e.preventDefault();
-    console.log("Cliked");
     const city = e.target[0].value;
     if (city === '') {
       alert("Please enter a city");
@@ -36,7 +35,6 @@ function Weather() {
     const data = await fetch(`${url}`)
       .then(response => response.json());
 
-    console.log(data);
     if (data.cod === '404') {
       setLnf('block');
       setDisplay('none');
