@@ -29,6 +29,3 @@ To use the app, simply type the name of the city you want to search for in the s
 # Demo
 A live demo of the React Weather App is available at [LINK TO LIVE DEMO](https://weatherbypriyanshu.netlify.app/).
 
-
-# Demo
-A live demo of the React Weather App is available at [LINK TO LIVE DEMO](https://react-weather-app-shemmee.netlify.app).
